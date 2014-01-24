@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="Amazon SQS Class" basedir=".." default="package">
+
+	<property name="name" value="amazon-sqs-class" />
+	<property name="version" value="0.9.1-1" />
+
+	<target name="package">
+		<tar destfile="../${name}-${version}.tgz" compression="gzip">
+			<tarfileset dir="." prefix="${name}">
+				<exclude name="**/.cvsignore" />
+				<exclude name="**/.svn/**" />
+				<exclude name="build/**" />
+				<exclude name="project.index" />
+				<exclude name=".project" />
+				<exclude name=".settings/**" />
+				<exclude name=".cache/**" />
+				<exclude name="build.xml" />
+			</tarfileset>
+		</tar>
+	</target>
+
+</project>

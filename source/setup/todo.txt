@@ -1,0 +1,5 @@
+
+committed 2009-02-18:
+ - Allow SSL to be disabled at developer's discretion
+ - Allow VERIFYHOST and VERIFYPEER to be disabled
+

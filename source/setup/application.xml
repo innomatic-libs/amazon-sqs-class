@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<application>
+
+	<definition>
+		<idname>amazon-sqs-class</idname>
+		<release>
+			<version>0.9.1-1</version>
+			<date>2009-05-09</date>
+			<changesfile>CHANGES</changesfile>
+		</release>
+		<description>Amazon SQS PHP class</description>
+		<category>libraries</category>
+		<iconfile></iconfile>
+		<dependencies>
+			<!-- <dependency></dependency> -->
+			<!-- <suggestion></suggestion> -->
+		</dependencies>
+		<options>
+			<!-- <option></option> -->
+		</options>
+		<legal>
+			<author>
+                <name>Dan Myers, Donovan Schönknecht</name>
+				<email></email>
+				<web>https://sourceforge.net/projects/php-sqs/</web>
+			</author>
+            <copyright>Copyright (c) 2009, Dan Myers. Parts copyright 2008, Donovan Schönknecht. All rights reserved.</copyright>
+			<license>New BSD License</license>
+			<licensefile>LICENSE</licensefile>
+		</legal>
+		<support>
+			<supportemail></supportemail>
+			<bugsemail></bugsemail>
+			<maintainer>
+				<name>Alex Pagnoni</name>
+				<email>alex.pagnoni@innoteam.it</email>
+			</maintainer>
+		</support>
+	</definition>
+
+	<components>
+	
+	   <class name="amazon-sqs/SQS.php" />
+
+	</components>
+</application>
